@@ -6,6 +6,10 @@ intents:
   - who_are_you
   - inform
 
+slots:
+  service:
+    type: text
+
 actions:
 - utter_greet
 - utter_make_an_appointment
@@ -21,7 +25,7 @@ templates:
   - text: "Hi! What service are you interested in?"
 
   utter_make_an_appointment:
-  - text: "OK. I'll make an appointment for you"
+  - text: "OK. I'll make an appointment for you for {service}"
 
   utter_waiting_for_you:
   - text: "OK. We're waiting for you"

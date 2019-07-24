@@ -1,7 +1,8 @@
 ## happy path
 * greet
   - utter_greet
-* inform
+* inform{"service": "haircut"}
+  - slot{"service": "haircut"}
   - utter_make_an_appointment
 * affirm
   - utter_waiting_for_you

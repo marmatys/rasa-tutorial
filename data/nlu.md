@@ -28,11 +28,17 @@
 - not really
 
 ## intent:inform
-- I'd like to have a [haircut](service)
+- I'd like to have a [balayage](service)
 - I want to have a [haircut](service)
+- I'm interested in [combing](service)
+- Do you perform [haircut](service)
 
-## lookup:services
-data/services.txt
+## lookup:service
+- haircut
+- balayage
+- hair dyeing
+- combing
+- alignment
 
 ## intent:who_are_you
 - who are you
