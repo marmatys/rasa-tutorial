@@ -3,38 +3,37 @@ intents:
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
   - who_are_you
+  - inform
 
 actions:
 - utter_greet
-- utter_cheer_up
-- utter_did_that_help
-- utter_happy
+- utter_make_an_appointment
 - utter_goodbye
-- utter_great_to_hear
 - utter_i_am_virtual_assistant
+- utter_cannot_help_more
+- utter_waiting_for_you
 
 templates:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hey! What service are you interested in?"
+  - text: "Hello! What service are you interested in?"
+  - text: "Hi! What service are you interested in?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_make_an_appointment:
+  - text: "OK. I'll make an appointment for you"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great carry on!"
+  utter_waiting_for_you:
+  - text: "OK. We're waiting for you"
+  - text: "Cannot wait to meet you"
 
   utter_goodbye:
   - text: "Bye"
+  - text: "Bye, bye!"
+  - text: "See you later"
 
-  utter_great_to_hear:
-  - text: "Glad to hear that it was helpful"
+  utter_cannot_help_more:
+  - text: "I'm sorry but currently I can help more"
 
   utter_i_am_virtual_assistant:
   - text: "I'am a virtual assistant"

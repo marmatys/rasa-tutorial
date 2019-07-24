@@ -1,30 +1,22 @@
 ## happy path
 * greet
   - utter_greet
-* mood_great
-  - utter_happy
+* inform
+  - utter_make_an_appointment
+* affirm
+  - utter_waiting_for_you
 
 ## who are you
 * who_are_you
   - utter_i_am_virtual_assistant
 
-## sad path 1
+## appointment not made
 * greet
   - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* affirm
-  - utter_great_to_hear
-
-## sad path 2
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
+* inform
+  - utter_make_an_appointment
 * deny
-  - utter_goodbye
+  - utter_cannot_help_more
 
 ## say goodbye
 * goodbye

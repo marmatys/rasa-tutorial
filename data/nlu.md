@@ -27,28 +27,12 @@
 - no way
 - not really
 
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
+## intent:inform
+- I'd like to have a [haircut](service)
+- I want to have a [haircut](service)
 
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
-- there were better days
+## lookup:services
+data/services.txt
 
 ## intent:who_are_you
 - who are you
