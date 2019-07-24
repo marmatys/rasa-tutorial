@@ -4,6 +4,10 @@
 * mood_great
   - utter_happy
 
+## who are you
+* who_are_you
+  - utter_i_am_virtual_assistant
+
 ## sad path 1
 * greet
   - utter_greet

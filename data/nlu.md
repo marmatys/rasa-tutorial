@@ -49,3 +49,8 @@
 - extremely sad
 - so sad
 - there were better days
+
+## intent:who_are_you
+- who are you
+- are you human
+- are you robot

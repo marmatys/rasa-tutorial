@@ -5,6 +5,7 @@ intents:
   - deny
   - mood_great
   - mood_unhappy
+  - who_are_you
 
 actions:
 - utter_greet
@@ -13,6 +14,7 @@ actions:
 - utter_happy
 - utter_goodbye
 - utter_great_to_hear
+- utter_i_am_virtual_assistant
 
 templates:
   utter_greet:
@@ -33,3 +35,6 @@ templates:
 
   utter_great_to_hear:
   - text: "Glad to hear that it was helpful"
+
+  utter_i_am_virtual_assistant:
+  - text: "I'am a virtual assistant"
