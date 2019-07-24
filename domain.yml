@@ -12,6 +12,7 @@ actions:
 - utter_did_that_help
 - utter_happy
 - utter_goodbye
+- utter_great_to_hear
 
 templates:
   utter_greet:
@@ -29,3 +30,6 @@ templates:
 
   utter_goodbye:
   - text: "Bye"
+
+  utter_great_to_hear:
+  - text: "Glad to hear that it was helpful"

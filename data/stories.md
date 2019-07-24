@@ -11,7 +11,7 @@
   - utter_cheer_up
   - utter_did_that_help
 * affirm
-  - utter_happy
+  - utter_great_to_hear
 
 ## sad path 2
 * greet
