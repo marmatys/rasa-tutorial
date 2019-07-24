@@ -1,0 +1,7 @@
+# IDEs
+.idea/
+*.iml
+
+# Rasa - project
+models/
+
